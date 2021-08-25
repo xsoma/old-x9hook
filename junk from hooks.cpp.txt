@@ -1,0 +1,18 @@
+from create_move:
+
+	if (variables::al) {
+		interfaces::console->get_convar("mat_ambient_light_r")->callbacks.size = 0;
+		interfaces::console->get_convar("mat_ambient_light_r")->set_value(variables::ambientlight[0]);
+		interfaces::console->get_convar("mat_ambient_light_g")->callbacks.size = 0;
+		interfaces::console->get_convar("mat_ambient_light_g")->set_value(variables::ambientlight[1]);
+		interfaces::console->get_convar("mat_ambient_light_b")->callbacks.size = 0;
+		interfaces::console->get_convar("mat_ambient_light_b")->set_value(variables::ambientlight[2]);
+	}
+	else if (!variables::al) {
+		interfaces::console->get_convar("mat_ambient_light_r")->callbacks.size = 0;
+		interfaces::console->get_convar("mat_ambient_light_r")->set_value(0);
+		interfaces::console->get_convar("mat_ambient_light_g")->callbacks.size = 0;
+		interfaces::console->get_convar("mat_ambient_light_g")->set_value(0);
+		interfaces::console->get_convar("mat_ambient_light_b")->callbacks.size = 0;
+		interfaces::console->get_convar("mat_ambient_light_b")->set_value(0);
+	}

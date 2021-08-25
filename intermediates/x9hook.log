@@ -1,0 +1,17 @@
+﻿  aimbot.cpp
+  anims.cpp
+  antiaim.cpp
+  triggerbot.cpp
+  misc.cpp
+  glovechanger.cpp
+  Chams.cpp
+  Glow.cpp
+  Visuals.cpp
+  hooks.cpp
+  main.cpp
+  menu.cpp
+  zgui.cpp
+  Generating Code...
+     Creating library .\output\debug\x9hook.lib and object .\output\debug\x9hook.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  x9hook.vcxproj -> C:\Users\123\Desktop\new x9 aka sussy baka cheat provider $$$\output\debug\x9hook.dll
