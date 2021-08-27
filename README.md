@@ -1,5 +1,5 @@
 ## x9hook (old! based on csgosimple)
-> internal movement cheat for cs:go. (with aimware menu:))
+> internal legit cheat
 
 ## known issues:
 
