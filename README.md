@@ -1,5 +1,5 @@
 ## x9hook (old! based on csgosimple)
-> internal legit cheat
+> internal legit cheat for cs:go.
 
 ## known issues:
 
